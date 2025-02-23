@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Powered Tools</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        .header {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .sub-header {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .description {
+            margin-bottom: 20px;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr;
+            align-items: center;
+            gap: 20px;
+        }
+        .row {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            gap: 30px;
+            
+        }
+
+        
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 200px;
+            text-align: left;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .card h3 {
+            font-size: 18px;
+            margin: 0 0 10px;
+        }
+        .card p {
+            font-size: 14px;
+            color: #666;
+        }
+        .card img {
+            width: 40px;
+            height: 40px;
+            margin-top: 10px;
+        }
+        .supervisor {
+            border-top: 4px solid #00bcd4;
+            
+        }
+        .team-builder {
+            border-top: 4px solid #f44336;
+
+        }
+        .karma {
+            border-top: 4px solid #ff9800;
+            margin-bottom: 10px;
+        }
+        .calculator {
+            border-top: 4px solid #2196f3;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Reliable, efficient delivery</div>
+        <div class="sub-header">Powered by Technology</div>
+        <p class="description">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+        <div class="cards">
+            <div class="card supervisor">
+                <h3>Supervisor</h3>
+                <p>Monitors activity to identify project roadblocks</p>
+                <img src="https://via.placeholder.com/40" alt="Supervisor Icon">
+            </div>
+            <div class="row">
+                <div class="card team-builder">
+                    <h3>Team Builder</h3>
+                    <p>Scans our talent network to create the optimal team for your project</p>
+                    <img src="https://via.placeholder.com/40" alt="Team Builder Icon">
+                </div>
+                <div class="card karma">
+                    <h3>Karma</h3>
+                    <p>Regularly evaluates our talent to ensure quality</p>
+                    <img src="https://via.placeholder.com/40" alt="Karma Icon">
+                </div>
+            </div>
+            <div class="card calculator">
+                <h3>Calculator</h3>
+                <p>Uses data from past projects to provide better delivery estimates</p>
+                <img src="https://via.placeholder.com/40" alt="Calculator Icon">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
